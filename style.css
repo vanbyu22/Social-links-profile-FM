@@ -90,13 +90,7 @@ body {
   border: none;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.links:hover,
-.links a:hover {
+.links:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 7%);
   font-weight: bold;
@@ -137,4 +131,8 @@ footer {
 }
 .attribution a {
   color: hsl(75, 94%, 57%);
+}
+
+.attribution a:hover {
+  color: hsl(0, 1%, 62%);
 }
