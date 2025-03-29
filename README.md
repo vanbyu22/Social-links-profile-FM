@@ -11,14 +11,13 @@ This is a solution to the [Social links Profile on Frontend Mentor](https://www.
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+
 
 ## Overview
 
 ### Screenshot
 
-![Final Result](https://github.com/vanbyu22/QR-component-main/blob/464c778594712cbdab21f2d94a1b83a20749b386/Screenshot_15-3-2025_updated.jpeg)
+![Final Result](https://github.com/vanbyu22/Social-links-profile-FM/blob/63a88cbcd85cef130df3c76af3ee885cc108287b/Screenshot_29-3-2025_141916_final-desktop.jpeg)
 
 ### Links
 
