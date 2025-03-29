@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="container">
+      <div class="profile">
+        <img src="images/avatar-jessica.jpeg" alt="Jessica Randall" />
+        <h1>Jessica Randall</h1>
+        <h2>London, United Kingdom</h2>
+        <p>"Front-end developer and avid reader."</p>
+      </div>
+      <div class="links">
+        <button
+          id="links"
+          onclick="window.open('https://github.com', '_blank')"
+        >
+          GitHub
+        </button>
+
+        <button
+          id="links"
+          onclick="window.open('https://www.frontendmentor.io/', '_blank');"
+        >
+          Frontend Mentor
+        </button>
+        <button
+          id="links"
+          onclick="window.open('https://www.linkedin.com/', '_blank')"
+        >
+          LinkedIn
+        </button>
+        <button id="links" onclick="window.open('https://x.com/', '_blank')">
+          Twitter
+        </button>
+        <button
+          id="links"
+          onclick="window.open('http://instagram.com', '_blank')"
+        >
+          Instagram
+        </button>
+
+        <!--
+        <div id="links"><a href="#">GitHub</a></div>
+        <div id="links"><a href="#">Frontend Mentor</a></div>
+        <div id="links"><a href="#">LinkedIn</a></div>
+        <div id="links"><a href="#">Twitter</a></div>
+        <div id="links"><a href="#">Instagram</a></div>
+      --></div>
+    </main>
+
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/vanbyu22" target="_blank">Vanessa B. Yu</a>.
+        2025.
+      </div>
+    </footer>
+  </body>
+</html>
