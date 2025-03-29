@@ -95,8 +95,8 @@ a {
   color: #fff;
 }
 
-#links:hover,
-a:hover {
+.links:hover,
+.links a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 7%);
   font-weight: bold;
